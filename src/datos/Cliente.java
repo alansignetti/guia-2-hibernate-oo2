@@ -82,8 +82,8 @@ public class Cliente {
 	}
 
 // Desarrollar en la clase Funciones el método traerFechaCorta(LocalDate fecha)
-//	public String toString() {
-//		return (idCliente + " " + apellido + " " + nombre + " DNI: " + dni + " F.de Nacimiento:"
-//				+ Funciones.traerFechaCorta(fechaDeNacimiento) + " " + baja);
-//	}
+	public String toString() {
+		return (idCliente + " " + apellido + " " + nombre + " DNI: " + dni + " F.de Nacimiento:"
+				+ Funciones.traerFechaCorta(fechaDeNacimiento) + " " + baja);
+	}
 }

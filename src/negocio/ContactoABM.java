@@ -11,8 +11,14 @@ public class ContactoABM {
 		Contacto c = dao.traer(idContacto);
 		return c;
 	}
+	
+//	public Contacto traer(int dni) {
+//		Contacto c = dao.traer(dni);
+//		return c;
+//	}
 
 	public int agregar(String email, String movil, String fijo, Cliente cliente) {
+
 		Contacto c = new Contacto(email, movil, fijo, cliente);
 		return dao.agregar(c);
 	}
